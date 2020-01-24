@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>The Development Program</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"> <a href=https://engineering.uottawa.ca/CEED> <b>CEED</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a <b>The Development Program</b></a>
+    <a href="#Overview" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Overview</a>
+    <a href="#Skills" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skills</a>
+    <a href="#Volunteer" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Volunteer</a>
+    <a href="#Courses" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Courses</a>
+    <a href="#Employment" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Employment</a>
+
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>CEED</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="Overview">
+    <h1 class="w3-jumbo"><b>THE DEVELOPMENT PROGRAM</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Overview</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>With the World Wide Web connecting experiences from across the globe, many of today’s professional skills can be effectively self-taught outside the traditional and costly classroom method. The problem is no matter how talented a person becomes, they will still lack an official accreditation for their skill. The classic certificates can expand employment opportunities, but they are difficult to plan and hard to verify by employers. Our modular Development Program is designed to plan, track, and accredit your skill development effortlessly. The Development Program will make use of industry standardized certificates that are convenient to share, and electronically verifiable for your future employers.
+    <br> <br>The Development program not only allows you to track your development on your own time, but it also allows you to:
+</p>
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="courses.png" style="width:200%" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,1000,130" alt="Skills" href="#Skills">
+  <area shape="rect" coords="0,140,1000,240" alt="Volunteer" href="#Volunteer">
+  <area shape="rect" coords="0,250,1000,355" alt="Venus" href="#Courses">
+  <area shape="rect" coords="0,360,1000,465" alt="Venus" href="#Employment">
+</map>
+    <!--  <img src="courses.png" style="width:200%" onclick="onClick(this)" alt="Concrete meets bricks"-->
+
+    </div>
+
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="w3-container" id="Skills" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Skills & Badges </b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The Centre for Entrepreneurship and Engineering Design (CEED) has always been committed to helping students and community members achieve success. </p>
+    <p>In addition to our free basic introductory workshops, you can now achieve higher level of technical abilities in each skill offered by the development program. As you progress in building your skill sets, you will unlock new tasks and challenges designed to push your limits into a whole new level. Once you are confident in your abilities you can tackle our proficiency projects. The hands-on proficiency projects are qualifying projects put together by our expert team to test your abilities to complete a project at a specific level of quality (intermediate, advanced, mastery) upon satisfactory completion of each proficiency project you will be rewarded with the appropriate digital badeg.</p>
+    <p> <b> To help you understand the structure better, we made a flow diagram of skill progression<a href="Skill.png"> HERE.</a></b></p>
+<div class="w3-container w3-center" id="Digital Badges" >
+  <h1 class="w3-text-red"><b>Digital Badges</b> </h1>
+  <p> <b><a text.color= blue href="BADGE.png">Example of what employers see on each badge profile</a> </b></p>
+  <img src="Badges.png" class="w3-round" alt="Example of our badges">
+
+</div>
+    <div class="w3-cell-row">
+
+<div class="w3-container w3-cell">
+  <ul class="w3-ul w3-card" >
+    <li><h2>Digital Technologies</h2></li>
+  <li class="w3-hover-deep-orange"> 3D-Printing </li>
+  <li class="w3-hover-deep-orange"> Laser Cutting</li>
+  <li class="w3-hover-deep-orange"> Arduino</li>
+  <li class="w3-hover-deep-orange"> Soldering</li>
+  <li class="w3-hover-deep-orange"> Virtual reality</li>
+  <li class="w3-hover-deep-orange"> Embroidery</li>
+</ul>
+
+</div>
+
+<div class="w3-container w3-cell ">
+  <ul class="w3-ul w3-card-4" >
+    <li><h2>Professional development</h2></li>
+  <li class="w3-hover-blue">Design Thinking</li>
+  <li class="w3-hover-blue">Entrepreneurship Basics</li>
+  <li class="w3-hover-blue">Project Management</li>
+  <li class="w3-hover-blue">Effective Communication (written and oral)</li>
+
+</ul>
+
+</div>
+<div class="w3-container w3-cell ">
+  <ul class="w3-ul w3-card-4" >
+    <li><h2>Manufacturing Technologies</h2></li>
+  <li class="w3-hover-green">Shop Fundamentals </li>
+  <li class="w3-hover-green">Lathe</li>
+  <li class="w3-hover-green">Mill</li>
+  <li class="w3-hover-green">CNC</li>
+  <li class="w3-hover-green">Welding</li>
+
+</ul>
+</div>
+</div>
+  </div>
+
+
+  <!-- Volunteer -->
+  <div class="w3-container" id="Volunteer" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Volunteer</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Gaining experiences through volunteering is an excellent way to broaden your horizons and acquire valuable skills required in the working world!
+Numerous studies show that those who volunteer to help others also feel better about themselves. With your desire to enrich your community and your own life, and by giving your time and expertise, you will realize that you truly can make a difference.</p>
+    <p>The development program will improve our current volunteer program. In particular the development program will focus on guiding our volunteers to complete increasingly challenging tasks to develop their skills and reward them in the process. To understand how the volunteer portion of the development program work click here.
+<br><b>Volunteers can now:</b>
+<li>	Unlock different tasks based on their skill level.</li>
+<li>	Track their skill progress through their MakerRepo account.</li>
+<li>	Each task will reward CEED Credit (CC) to be used in our MakerStore.</li>
+<li>	Each task will have predetermined hours to be rewarded upon completion.</li>
+<br>We have compiled an updated info sheet <a href="Volunteerinfo.pdf">HERE</a>, and a presentation <a href="Volunteerpresentation.pdf">HERE</a> to guild you on the registration process and how the program work.
+
+  </div>
+
+  <!-- Courses< -->
+  <div class="w3-container" id="Courses" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Courses</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>What's better than a course that's only hand-on? the fact that you will have no final!!.</p>
+    <p>Starting summer 2020 Graduate and Undergrad students will be able to register for an official course as part of the development program and earn credits.</p>
+<br> <b>Requirements before being accepted to the course:</b>
+<li>Completed 1.5 hours 3D printing</li>
+<li>Completed 3 hours: Basic training</li>
+<li>Completed Shadowing: 6 hours at Makerspace and 6 hours at Brunsfield.</li>
+<li>Two intermediate level badges from the list of skills above</li>
+<br><b>On completion of the course you will have:</b>
+<li>Committed 10hr/week of doing tasks in a facility of your choosing.</li>
+<li>Advanced level badges in all of the skills related to the facility of your choosing</li>
+
+
+    <p>For more information about the graduate level course click<a href="https://www.site.uottawa.ca/~lpeyton/PDWsyllabus.html"> HERE</a> <br> For more information about the undergrad level course stay toned</p>
+  </div>
+
+  <!-- Employment -->
+  <div class="w3-container" id="Employment" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Employment</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Not only will the development program build your personal skills, but it will make you more attractive to employers. The different proficiency level badges and the trainings will offer you an opportunity to find employment opportunities with the Centre for Entrepreneurship and Engineering Design (CEED) and other organizations.
+CEED hires over 50 students every term in addition to 15 TAs for the courses.<br> We are also currently working with industry partners and government branshes to add their desired skills to our program</p>
+  </div>
+
+
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Do you want know more? Fill out the form and we will answer all your questions</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
